@@ -2,5 +2,9 @@
 
 Simple demo to showcase P-256 key generation without dependencies, in a browser context. Using web crypto APIs.
 
+# See it live
+
+This is hosted at [r-n-o.github.io/p256-keygen](https://r-n-o.github.io/p256-keygen/) for convenience if you simply want to play with it.
+
 # Legal Disclaimer
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL TURNKEY BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
