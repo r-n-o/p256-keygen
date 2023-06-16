@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>P256 keygen</title>
+  <style>
+    body {
+      text-align: center;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    #keygen {
+      font-size: 1.35em;
+      width: 20em;
+      padding: 0.3em;
+      margin: 1em;
+    }
+    #public-key, #private-key {
+      width: 40em;
+      margin: 0.5em;
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 1em;
+      height: 1.8em;
+    }
+    #public-key {
+      color: rgb(18, 87, 18);
+      border: 1px rgb(22, 164, 48) solid;
+
+    }
+    #private-key {
+      color: rgb(157, 30, 30);
+      border: 1px rgb(198, 35, 35) solid;
+    }
+  </style>
+</head>
+<body>
+  <h1>In-browser P-256 keygen</h1>
+  <button id="keygen">Generate</button><br>
+  Public key:<br>
+  <input id="public-key" /><br>
+  Private key: <br>
+  <input id="private-key" />
+</body>
+<script async src="p256.js"></script>
+</html>
